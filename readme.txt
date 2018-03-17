@@ -6,8 +6,4 @@ git就像一个仓库一样，编辑器的作用是什么。
 使用 git status 来查看整个Git 仓库的状态;
 
 第一次使用Git与Github进行关联，使用“git remote add origin git@github.com:hujiaqi7777/learngit.git”。然后使用命令“git push -u origin master”将本地库的内容推送到远程库上;之后直接可以用“git push origin master”提交。
-如果我要编辑一个这样的仓库，我希望它具有的功能是:
 
-要求是新添加一行内容
-
-然后再增加一行内容
