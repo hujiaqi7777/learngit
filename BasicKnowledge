@@ -1,13 +1,47 @@
 linux command:{
 	mkdir, cd, pwd, ., ..
+	touch filename: creat a new null file named filename
 	ls: list files or directory in current directory
 	cat: cat <filename>, presentation contents in <filename>
 	cat > file: clear the file,and then you can write someting into the file 
 	cat >> file:you can write something into the file following up exited content
+	cat list1 list2 > list3:What this is doing is reading the contents of list1 and list2 in 					turn, then outputing the text to the file biglist
 	cp file1 file2: make a copy of file1 in the current directory and calls it file2
 	mv file1 file2: move(or rename) file1 to file2
 	rm/rmdir file/dir:that means remove or delect
 	clear:clear the terminal
 	grep keyword filename: search files for specified words or patterns
-	
+	ping <Destination host>:used to test the connectivity of the network between hosts
+	sudo:carry out action as a manager
+	apt-get install/remove/update/upgrade:install/remoce/update/upgrade application from Debian
+	ps -<optionname>:report the state of the process in the current system
+	kill :kill the process
+	history n:print n reccent commands
+	ifconfig, iwconfig
+}
+
+
+vim command:{
+	h moves the cursor one character to the left.
+	j moves the cursor down one line.
+	k moves the cursor up one line.
+	l moves the cursor one character to the right.
+	0 moves the cursor to the beginning of the line.
+	$ moves the cursor to the end of the line.
+	w move forward one word.
+	b move backward one word.
+	G move to the end of the file.
+	gg move to the beginning of the file.
+	`. move to the last edit.
+	/text: search for text in the document, going forward.
+	i, esc, :w, :q, :wq, :q!
+}
+
+tmux command:{
+	tmux: enter the interface of tmux
+	C-b %:split the pane into two parts
+	C-b <arrow key>:shift the pane
+	C-d :close the pane
+}
+
 
