@@ -1,0 +1,13 @@
+linux command:{
+	mkdir, cd, pwd, ., ..
+	ls: list files or directory in current directory
+	cat: cat <filename>, presentation contents in <filename>
+	cat > file: clear the file,and then you can write someting into the file 
+	cat >> file:you can write something into the file following up exited content
+	cp file1 file2: make a copy of file1 in the current directory and calls it file2
+	mv file1 file2: move(or rename) file1 to file2
+	rm/rmdir file/dir:that means remove or delect
+	clear:clear the terminal
+	grep keyword filename: search files for specified words or patterns
+	
+
