@@ -9,3 +9,5 @@ git就像一个仓库一样，编辑器的作用是什么。
 使用git branch dev创建分支，使用git checkout name切换到分支。创建+切换分支：git checkout -b <name>，使用git merge dev将当前分区与dev分支合并，然后用git branch -d dev删除分支。用git branch 查看分支 
 
 
+
+我们能使用Git branch dev创建新的分支，使用git checkout dev切换分支，然后git branch检查分区。另外通过git checkout master重新切换为原来的分区
