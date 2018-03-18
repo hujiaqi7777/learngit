@@ -7,3 +7,5 @@ git就像一个仓库一样，编辑器的作用是什么。
 
 第一次使用Git与Github进行关联，使用“git remote add origin git@github.com:hujiaqi7777/learngit.git”。然后使用命令“git push -u origin master”将本地库的内容推送到远程库上;之后直接可以用“git push origin master”提交。
 
+
+我们能使用Git branch dev创建新的分支，使用git chectout切换分支，然后git branch检查分区
