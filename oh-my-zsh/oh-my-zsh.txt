@@ -1,0 +1,9 @@
+1、安装zsh
+	1.sudo apt install zsh
+	2.wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+	（安装oh-my-zsh时，会自动进行zsh的设置）
+2、更改默认的shell到zsh
+	1.chsh -s /bin/zsh
+	（通过 cat /ect/shells 可以查看已有的shells）
+3、创建配置文件
+	cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
