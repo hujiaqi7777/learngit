@@ -12,3 +12,5 @@ git 还有解决冲突的任务,git log --graph
 
 git merge --no-ff -m "merge with no-ff" dev   能够禁用fast forward
 使用git branch -D <name> 能直接删除分支
+
+当多人合作时，使用git clone git@github.com:hujiaqi7777/learngit,将origin上的仓库链接到本地，但只是将master分支连接到本地，若将dev也连接到本地，需要使用git branch -b dev origin/dev命令。
