@@ -11,4 +11,7 @@ git就像一个仓库一样，编辑器的作用是什么。
 git 还有解决冲突的任务,git log --graph
 
 git merge --no-ff -m "merge with no-ff" dev   能够禁用fast forward
-使用git branch -D <name> 能直接删除分支
+使用git branch -D <name> 能直接删除分支 
+
+
+用git pull把最新的提交从origin/dev抓下来，然后，在本地合并，解决冲突，再推送
